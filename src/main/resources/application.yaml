@@ -1,0 +1,9 @@
+pagination:
+  filter:
+    array-separator: |
+    field-separator: ;
+    level-separator: \.
+    pattern: ([\.\w]+?)(::|!:|<<|>>|>:|<:)([\w\s\.\(\)\-А-яЁё<>|%]+?)${pagination.filter.field-separator}
+  sort:
+    field-separator: ;
+    pattern: ([\w\.]+?)(:)(\w+?)${pagination.sort.field-separator}
