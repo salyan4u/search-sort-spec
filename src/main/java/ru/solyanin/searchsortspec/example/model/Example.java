@@ -1,4 +1,4 @@
-package ru.solyanin.example.model;
+package ru.solyanin.searchsortspec.example.model;
 
 import javax.persistence.Entity;
 

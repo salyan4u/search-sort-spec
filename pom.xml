@@ -14,7 +14,7 @@
     <artifactId>search-sort-spec</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>search-sort-spec</name>
-    <description>Шаблоны спецификации</description>
+    <description>Specification and sort template</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

@@ -1,7 +1,7 @@
-package ru.solyanin.specification;
+package ru.solyanin.searchsortspec.specification;
 
 import org.springframework.data.jpa.domain.Specification;
-import ru.solyanin.view.SearchCriteria;
+import ru.solyanin.searchsortspec.view.SearchCriteria;
 
 import javax.persistence.criteria.*;
 import java.util.Arrays;

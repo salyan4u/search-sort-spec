@@ -1,4 +1,4 @@
-package ru.solyanin.util;
+package ru.solyanin.searchsortspec.util;
 
 import org.springframework.data.domain.Sort;
 

@@ -1,4 +1,4 @@
-package ru.solyanin.service;
+package ru.solyanin.searchsortspec.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;

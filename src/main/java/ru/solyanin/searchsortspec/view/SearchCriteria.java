@@ -1,4 +1,4 @@
-package ru.solyanin.view;
+package ru.solyanin.searchsortspec.view;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

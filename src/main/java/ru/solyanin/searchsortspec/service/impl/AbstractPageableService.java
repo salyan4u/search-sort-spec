@@ -1,4 +1,4 @@
-package ru.solyanin.service.impl;
+package ru.solyanin.searchsortspec.service.impl;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -7,11 +7,11 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
-import ru.solyanin.configuration.properties.FilterProperties;
-import ru.solyanin.configuration.properties.SortProperties;
-import ru.solyanin.service.PageableService;
-import ru.solyanin.util.SortUtil;
-import ru.solyanin.util.SpecificationUtil;
+import ru.solyanin.searchsortspec.configuration.properties.FilterProperties;
+import ru.solyanin.searchsortspec.configuration.properties.SortProperties;
+import ru.solyanin.searchsortspec.service.PageableService;
+import ru.solyanin.searchsortspec.util.SortUtil;
+import ru.solyanin.searchsortspec.util.SpecificationUtil;
 
 import java.util.UUID;
 import java.util.regex.Pattern;

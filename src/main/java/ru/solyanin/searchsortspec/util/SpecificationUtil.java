@@ -1,7 +1,7 @@
-package ru.solyanin.util;
+package ru.solyanin.searchsortspec.util;
 
 import org.springframework.data.jpa.domain.Specification;
-import ru.solyanin.specification.builder.AbstractSpecificationBuilder;
+import ru.solyanin.searchsortspec.specification.builder.AbstractSpecificationBuilder;
 
 import javax.validation.constraints.NotNull;
 import java.util.regex.Matcher;

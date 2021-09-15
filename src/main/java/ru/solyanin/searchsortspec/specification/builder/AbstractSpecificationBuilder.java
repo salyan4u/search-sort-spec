@@ -1,8 +1,8 @@
-package ru.solyanin.specification.builder;
+package ru.solyanin.searchsortspec.specification.builder;
 
 import org.springframework.data.jpa.domain.Specification;
-import ru.solyanin.specification.AbstractSpecification;
-import ru.solyanin.view.SearchCriteria;
+import ru.solyanin.searchsortspec.specification.AbstractSpecification;
+import ru.solyanin.searchsortspec.view.SearchCriteria;
 
 import java.util.LinkedList;
 import java.util.List;

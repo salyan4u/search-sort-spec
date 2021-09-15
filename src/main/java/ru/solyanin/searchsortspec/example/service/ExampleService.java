@@ -1,6 +1,6 @@
-package ru.solyanin.example.service;
+package ru.solyanin.searchsortspec.example.service;
 
-import ru.solyanin.example.model.Example;
+import ru.solyanin.searchsortspec.example.model.Example;
 
 import javax.transaction.Transactional;
 import java.util.UUID;

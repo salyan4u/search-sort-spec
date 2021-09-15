@@ -1,13 +1,13 @@
-package ru.solyanin.example.service.impl;
+package ru.solyanin.searchsortspec.example.service.impl;
 
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
-import ru.solyanin.configuration.properties.FilterProperties;
-import ru.solyanin.configuration.properties.SortProperties;
-import ru.solyanin.example.model.Example;
-import ru.solyanin.example.repository.ExampleRepository;
-import ru.solyanin.example.service.ExampleService;
-import ru.solyanin.service.impl.AbstractPageableService;
+import ru.solyanin.searchsortspec.configuration.properties.FilterProperties;
+import ru.solyanin.searchsortspec.configuration.properties.SortProperties;
+import ru.solyanin.searchsortspec.example.model.Example;
+import ru.solyanin.searchsortspec.example.repository.ExampleRepository;
+import ru.solyanin.searchsortspec.example.service.ExampleService;
+import ru.solyanin.searchsortspec.service.impl.AbstractPageableService;
 
 import javax.persistence.EntityNotFoundException;
 import java.util.Optional;
